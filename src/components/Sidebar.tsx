@@ -24,7 +24,7 @@ export default function Sidebar() {
       name: 'Legado',
       price: '1,000,000',
       description: 'Todos los beneficios de los Tier 1, 2 y 3 + tu nombre, un mensaje y/o un objeto simbólico (pequeño y aprobado) se incluirá en una cápsula del tiempo que será enterrada como parte del proyecto.',
-      spots: '0/100'
+      spots: '0/20'
     }
   ];
 
