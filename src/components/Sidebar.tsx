@@ -3,29 +3,29 @@ import { Mail, Github, Linkedin } from 'lucide-react';
 export default function Sidebar() {
   const tiers = [
     {
-      name: 'Early Bird',
-      price: '5,000',
-      description: 'Priority reservation and 10% discount on final purchase',
-      spots: '20/50'
+      name: 'Dona un ladrillo',
+      price: '5.000',
+      description: 'Tendrás mi agradecimiento y serás parte de la Placa Conmemorativa de Mecenas,',
+      spots: '0/500'
     },
     {
-      name: 'Green Pioneer',
-      price: '10,000',
-      description: 'All Early Bird benefits + custom interior design consultation',
-      spots: '15/30'
+      name: 'Huella Verde',
+      price: '150,000',
+      description: 'Los beneficios del Tier 1 + una carta de agradecimiento escrita a mano, agradeciendo tu aporte.',
+      spots: '0/100'
     },
     {
-      name: 'Eco Visionary',
-      price: '20,000',
-      description: 'All Pioneer benefits + solar panel upgrade + smart home package',
-      spots: '5/10'
+      name: 'Memoria Eterna',
+      price: '500,000',
+      description: 'Todos los beneficios de los Tier 1 y 2 + voy a sembrar una planta ornamental en tu nombre. Recibirás updates constantes de su crecimiento.',
+      spots: '0/100'
     }
   ];
 
   return (
     <div className="space-y-6">
       <div className="bg-white rounded-lg shadow-md p-6">
-        <h3 className="text-xl font-bold mb-4">Support Tiers</h3>
+        <h3 className="text-xl font-bold mb-4">Tiers</h3>
         <div className="space-y-4">
           {tiers.map((tier, index) => (
             <div key={index} className="border rounded-lg p-4 hover:border-emerald-600 transition-colors">
@@ -46,7 +46,7 @@ export default function Sidebar() {
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6">
-        <h3 className="text-xl font-bold mb-4">Newsletter</h3>
+        <h3 className="text-xl font-bold mb-4">Suscríbete al boletín de noticias donde estaré contando el avance de mi proyecto.</h3>
         <form className="space-y-3">
           <input
             type="email"
@@ -67,14 +67,12 @@ export default function Sidebar() {
             className="w-16 h-16 rounded-full object-cover"
           />
           <div>
-            <h3 className="font-bold">John Anderson</h3>
-            <p className="text-sm text-gray-600">Sustainable Housing Developer</p>
+            <h3 className="font-bold">Samuel González</h3>
+            <p className="text-sm text-gray-600">Digital Marketer | Data Scientist | Soñador</p>
           </div>
         </div>
         <p className="text-sm text-gray-700 mb-4">
-          With 15 years of experience in sustainable architecture and eco-friendly 
-          development, I'm passionate about creating homes that serve both people 
-          and the planet.
+        Creo firmemente en la posibilidad de vivir en armonía con la naturaleza sin renunciar al confort ni a la innovación. Con este proyecto EcoHab quiero demostrar que es posible construir viviendas ecológicas, accesibles y que generen un impacto positivo a la comunidad.
         </p>
         <div className="flex space-x-4">
           <a href="#" className="text-gray-600 hover:text-emerald-600">

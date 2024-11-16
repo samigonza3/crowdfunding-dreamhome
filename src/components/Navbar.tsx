@@ -14,24 +14,24 @@ export default function Navbar() {
             <div className="flex items-center">
               <Target className="h-5 w-5 text-emerald-600" />
               <div className="ml-2">
-                <p className="text-xs text-gray-600">Goal</p>
-                <p className="font-semibold">$2.5M</p>
+                <p className="text-xs text-gray-600">Objetivo</p>
+                <p className="font-semibold">$70'000.000</p>
               </div>
             </div>
             
             <div className="flex items-center">
               <Users className="h-5 w-5 text-emerald-600" />
               <div className="ml-2">
-                <p className="text-xs text-gray-600">Backers</p>
-                <p className="font-semibold">847</p>
+                <p className="text-xs text-gray-600">Dreamers</p>
+                <p className="font-semibold">1</p>
               </div>
             </div>
             
             <div className="flex items-center">
               <Clock className="h-5 w-5 text-emerald-600" />
               <div className="ml-2">
-                <p className="text-xs text-gray-600">Days Left</p>
-                <p className="font-semibold">23</p>
+                <p className="text-xs text-gray-600">Días faltantes</p>
+                <p className="font-semibold">365</p>
               </div>
             </div>
           </div>
