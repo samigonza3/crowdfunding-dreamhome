@@ -17,7 +17,13 @@ export default function Sidebar() {
     {
       name: 'Memoria Eterna',
       price: '500,000',
-      description: 'Todos los beneficios de los Tier 1 y 2 + voy a sembrar una planta ornamental en tu nombre. Recibirás updates constantes de su crecimiento.',
+      description: 'Todos los beneficios de los Tier 1 y 2 + voy a sembrar una planta ornamental en tu nombre. Recibirás updates constantes de su crecimiento. También estarás invitadx al acto especial de inauguración.',
+      spots: '0/50'
+    },
+    {
+      name: 'Legado',
+      price: '1,000,000',
+      description: 'Todos los beneficios de los Tier 1, 2 y 3 + tu nombre, un mensaje y/o un objeto simbólico (pequeño y aprobado) se incluirá en una cápsula del tiempo que será enterrada como parte del proyecto.',
       spots: '0/100'
     }
   ];
