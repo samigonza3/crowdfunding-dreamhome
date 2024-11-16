@@ -5,13 +5,13 @@ export default function Sidebar() {
     {
       name: 'Dona un ladrillo',
       price: '5.000',
-      description: 'Tendrás mi agradecimiento y serás parte de la Placa Conmemorativa de Mecenas,',
+      description: '¡Gracias! Serás parte de la Placa Conmemorativa de Mecenas.',
       spots: '0/500'
     },
     {
       name: 'Huella Verde',
       price: '150,000',
-      description: 'Los beneficios del Tier 1 + una carta de agradecimiento escrita a mano, agradeciendo tu aporte.',
+      description: 'Los beneficios del Tier 1 + una carta de agradecimiento escrita a mano.',
       spots: '0/100'
     },
     {
